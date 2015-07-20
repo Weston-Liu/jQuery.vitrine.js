@@ -7,7 +7,7 @@ like this:
 
 # Usage
 
-Import the ```vitrine.js``` file after the jQuery lib:
+Include the ```vitrine.js``` file after the jQuery lib:
 
 ```html
 <script src="jquery.min.js"></script>
@@ -30,9 +30,11 @@ Arrange DOM like this:
 
 Use ```data-desc``` attribute to describe items.
 
-Then use this code to call vitrine:
+Call vitrine:
 
 ```$('#vitrine').vitrine({title:'已开启区域',color:'#fff'});} ```
+
+Done!
 
 # Options: default value
 
