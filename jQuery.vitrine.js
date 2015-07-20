@@ -33,15 +33,14 @@
                 this.current = Math.min((this.options.start || Math.floor(this.length / 2)), this.length - 1);
 
                 if(this.length < 5) options.narrow = true;
-                if(this.length < 3) log('too few item');
 
                 this.duration = options.speed / 1000;
 
                 // init basic css
                 this.$items.find('img').css('width', '100%');
 
-                this.$title = $('<div id=\"vitrine-title\">' + options.title + '</div>');
-                this.$desc = $('<div id=\"vitrine-desc\"></div>');
+                this.$title = $('<div id="vitrine-title">' + options.title + '</div>');
+                this.$desc = $('<div id="vitrine-desc"></div>');
 
                 var titleCSS = {
                     'width': '100%',
@@ -93,8 +92,6 @@
                 positions[2] = this.current;
                 positions[3] = this.current < this.length - 1 ? this.current + 1 : (this.options.loop ? 0 : null);
                 positions[4] = this.options.narrow ? null : this.current + 1 < this.length - 1 ? this.current + 2 : (this.options.loop ? 2 - this.length + this.current : null);
-
-                log(positions);
 
                 this.$items.css({
                     'opacity': '0',
@@ -197,9 +194,6 @@
                     this.$showItems[i] && this.$showItems[i].off('click');
             }
 
-        };
-        var log = function(msg) {
-            console.log(msg);
         };
 
         // Plugin
