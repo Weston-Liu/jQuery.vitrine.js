@@ -7,7 +7,7 @@ like this:
 
 # Usage
 
-Import the ```vitrine.js``` file after the jQuery lib
+Import the ```vitrine.js``` file after the jQuery lib:
 
 ```html
 <script src="jquery.min.js"></script>
@@ -38,7 +38,8 @@ Then use this code to call vitrine:
 
 #### start: null
 
-Set which item will be displayed at the center after initialization, starts with 0
+Set which item will be displayed at the center after initialization, starts with 0.
+When set to null, the plugin will use the item in the middle as center item.
 
 #### narrow: false
 
@@ -47,16 +48,16 @@ The plugin will use narrow mode automatically when the quantity of item in DOM i
 
 #### speed: 400
 
-Set the animation duration in millisecond
+Set the animation duration in millisecond.
 
 #### loop: false
 
-Allow loop
+Allow loop.
 
 #### title: ''
 
-Set the title of vitrine, in the demo above, it's '已开启区域'
+Set the title of vitrine, in the demo above, it's '已开启区域'.
 
 #### color: '#000'
 
-Set the color of title and item decription
+Set the color of title and item decription.
