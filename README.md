@@ -56,8 +56,12 @@ Allow loop.
 
 #### title: ''
 
-Set the title of vitrine, in the demo above, it was '已开启区域'.
+Set the title of vitrine, in the demo below, it is '已开启区域'.
 
 #### color: '#000'
 
 Set the color of title and item decription.
+
+# Demo
+
+See demo here: http://hokye.com/#vitrine
