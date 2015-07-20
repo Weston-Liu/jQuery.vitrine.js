@@ -1,5 +1,5 @@
 # jQuery.vitrine.js
-a jQuery plugin used for display items in a vitrine effect
+This plugin is used for display items in a display window (vitrine) style
 
 like this:
 
@@ -56,7 +56,7 @@ Allow loop.
 
 #### title: ''
 
-Set the title of vitrine, in the demo above, it's '已开启区域'.
+Set the title of vitrine, in the demo above, it was '已开启区域'.
 
 #### color: '#000'
 
