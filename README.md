@@ -36,27 +36,27 @@ Then use this code to call vitrine:
 
 # Options: default value
 
-### start: null
+#### start: null
 
 Set which item will be displayed at the center after initialization, starts with 0
 
-### narrow: false
+#### narrow: false
 
 Set whether use narrow mode or not: in narrow mode only 3 item will be displayed at same time, and 5 otherwise.
 The plugin will use narrow mode automatically when the quantity of item in DOM is less than 5.
 
-### speed: 400
+#### speed: 400
 
 Set the animation duration in millisecond
 
-### loop: false
+#### loop: false
 
 Allow loop
 
-### title: ''
+#### title: ''
 
 Set the title of vitrine, in the demo above, it's '已开启区域'
 
-### color: '#000'
+#### color: '#000'
 
 Set the color of title and item decription
