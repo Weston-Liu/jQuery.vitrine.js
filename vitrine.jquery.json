@@ -1,0 +1,36 @@
+{
+    "name": "vitrine",
+    "title": "jQuery vitrine",
+    "description": "a plugin which is used for display items in a display window (vitrine) style"
+    "keywords": [
+        "vitrine",
+        "animation",
+        "display",
+        "exhibition"
+    ],
+    "version": "0.0.1",
+    "author": {
+        "name": "Weston-Liu",
+        "url": "https://github.com/Weston-Liu"
+    },
+    "maintainers": [
+        {
+            "name": "Wentong Liu",
+            "email": "vkki@qq.com",
+            "url": "http://vkki.me"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+        }
+    ],
+    "bugs": "https://github.com/Weston-Liu/jQuery.vitrine.js/issues",
+    "homepage": "https://github.com/Weston-Liu/jQuery.vitrine.js",
+    "docs": "https://github.com/Weston-Liu/jQuery.vitrine.js",
+    "download": "https://github.com/Weston-Liu/jQuery.vitrine.js/archive/master.zip",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
