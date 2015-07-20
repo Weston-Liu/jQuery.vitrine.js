@@ -44,7 +44,7 @@ When set to null, the plugin will use the item in the middle as center item.
 #### narrow: false
 
 Set whether use narrow mode or not: in narrow mode only 3 item will be displayed at same time, and 5 otherwise.
-The plugin will use narrow mode automatically when the quantity of item in DOM is less than 5.
+The plugin will use narrow mode automatically when the quantity of item in DOM is less than 5. **Please add at least 3 items into DOM.**
 
 #### speed: 400
 
